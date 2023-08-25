@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="./"
+           review="." />
+  <default revision="master"
+           remote="github"
+           sync-j="4" />
+
+  <project path="CrealityPrint" name="CrealityPrint" revision="release-v4.3.7"/>
+  <project path="CrealityPrint/cmake" name="shared-cmake" revision="master"/>
+  <project path="CrealityPrint/CADCore" name="CADCore" revision="version-0.0.1"/>
+  <project path="CrealityPrint/QCXUtil" name="QCXUtil" revision="master"/>
+  <project path="CrealityPrint/crcommon" name="crcommon" revision="version-0.0.1"/>
+  <project path="CrealityPrint/crslice" name="crslice" revision="version-0.0.3"/>
+  <project path="CrealityPrint/cserialport" name="cserialport" revision="master"/>
+  <project path="CrealityPrint/cxcloud" name="cxcloud" revision="version-0.0.1"/>
+  <project path="CrealityPrint/cxgcode" name="cxgcode" revision="version-0.0.1"/>
+  <project path="CrealityPrint/cxkernel" name="cxkernel" revision="version-0.0.1"/>
+  <project path="CrealityPrint/cxmdns" name="cxmdns" revision="master"/>
+  <project path="CrealityPrint/cxnd" name="cxnd" revision="version-0.0.3"/>
+  <project path="CrealityPrint/cxutil" name="cxutil" revision="version-0.0.1"/>
+  <project path="CrealityPrint/gcode" name="gcode" revision="master"/>
+  <project path="CrealityPrint/mmesh" name="mmesh" revision="version-0.0.3"/>
+  <project path="CrealityPrint/qcxffmpeg" name="qcxffmpeg" revision="version-0.0.3"/>
+  <project path="CrealityPrint/qtuser" name="qtuser" revision="version-1.0.0"/>
+  <project path="CrealityPrint/slic3rBase" name="slic3rBase" revision="version-0.0.1"/>
+  <project path="CrealityPrint/topomesh" name="topomesh" revision="version-0.0.1"/>
+  <project path="CrealityPrint/resources/sliceconfig" name="sliceconfig" revision="version-0.0.3"/>
+</manifest>

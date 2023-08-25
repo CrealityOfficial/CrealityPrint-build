@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="remote1"
+           fetch="."
+           review="." />
+  <default revision="master"
+           remote="remote1"
+           sync-j="4" />
+
+  <project path="c3d" name="yanfa4/c3d/cloudslicer" />
+</manifest>
