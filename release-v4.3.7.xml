@@ -14,7 +14,6 @@
   <project path="CrealityPrint/crcommon" name="crcommon" revision="version-0.0.1"/>
   <project path="CrealityPrint/crslice" name="crslice" revision="version-0.0.3"/>
   <project path="CrealityPrint/cserialport" name="cserialport" revision="master"/>
-  <project path="CrealityPrint/cxcloud" name="cxcloud" revision="version-0.0.1"/>
   <project path="CrealityPrint/cxgcode" name="cxgcode" revision="version-0.0.1"/>
   <project path="CrealityPrint/cxkernel" name="cxkernel" revision="version-0.0.1"/>
   <project path="CrealityPrint/cxmdns" name="cxmdns" revision="master"/>
@@ -26,5 +25,5 @@
   <project path="CrealityPrint/qtuser" name="qtuser" revision="version-1.0.0"/>
   <project path="CrealityPrint/slic3rBase" name="slic3rBase" revision="version-0.0.1"/>
   <project path="CrealityPrint/topomesh" name="topomesh" revision="version-0.0.1"/>
-  <project path="CrealityPrint/resources/sliceconfig" name="sliceconfig" revision="version-0.0.3"/>
+  <project path="CrealityPrint/resources/sliceconfig" name="sliceconfig" revision="github"/>
 </manifest>
