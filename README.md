@@ -1,9 +1,7 @@
 CrealityPrint-build
 =======
 
-CrealityPrint is FDM-slicer desktop software of [Creality](https://www.creality.cn/).
-
-this is a project base on **repo** 
+CrealityPrint-build is **repo** description project of [CrealityPrint](https://github.com/CrealityOfficial/CrealityPrint) which is the FDM desktop FDM-slicer software of [Creality 创想三维](https://www.creality.cn/).
 
 ## description
 
