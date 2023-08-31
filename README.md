@@ -1,17 +1,15 @@
 CrealityPrint-build
 =======
 
-CrealityPrint is FDM-slicer desktop software of [Creality 创想三维](https://www.creality.cn/).
+CrealityPrint is FDM-slicer desktop software of [Creality](https://www.creality.cn/).
 
-this is a description project base on **repo** 
-
-![20230831-122813](C:\Users\cx1959\Desktop\20230831-122813.jpg)
+this is a project base on **repo** 
 
 ## description
 
-- **model (edit,  model library)**
-- **slice**
-- **net**
+- **how to build CrealityPrint on Windows**
+- **how to build CrealityPrint on MacOS**
+- **how to build CrealityPrint on Linux**
 
 relates
 -------------
@@ -20,12 +18,12 @@ relates
 - [CMake 3.23 or higher](https://cmake.org/)
 - [Conan >=1.50 <=1.56.0](https://conan.io/)
 - [repo](https://source.android.com/docs/setup/create/repo?hl=zh-cn)
-- compile toolchains  
+- compile toolchains  (Visual Studio with MSVC 2019 or higher / xcode 13 or higher / gcc8 or higher)
 - [conan_build](https://github.com/CrealityOfficial/conan_build) 
 
 ## build 
 
-1. build conan_build to prepare the pre-compiled libraries
+1. use [conan_build](https://github.com/CrealityOfficial/conan_build) to build the dependent  libraries
 
 2. build this base on repo
 
